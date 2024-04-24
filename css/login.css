@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'montebello';
+    src: url(montebello-regular.ttf)format("truetype"), url(montebello-light.otf)format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: red;
+    overflow: hidden;
+}

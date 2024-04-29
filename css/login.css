@@ -80,3 +80,12 @@ body{
 .wrapper form .pass p:hover{
     text-decoration: underline;
 }
+.wrapper form .button input{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0;
+    background: gray;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}

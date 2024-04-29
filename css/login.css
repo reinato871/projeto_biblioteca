@@ -13,7 +13,7 @@
 body{
     width: 100%;
     height: 100%;
-    background:#066b7c;
+    background:#454747f8;
     overflow: hidden;
 }
 .container{
@@ -55,4 +55,28 @@ body{
     border: 1px solid lightgray;
     font-size: 16px;
     font-family: 'Montebello',Times,serif;
+}
+.wrapper form .row .i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    font-size: 20px;
+    background: rgb(80, 75, 75);
+    box-shadow: o 4px 2px -2px rgba(36, 33, 33, 0.25);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+}
+.wrapper form .pass{
+    color: gray;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:'Montebello',Times,serif ;
+}
+.wrapper form .pass p:hover{
+    text-decoration: underline;
 }

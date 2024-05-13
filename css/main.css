@@ -170,3 +170,15 @@ nav.close li a .link-name {
     padding: 6PX;
     display: none;
 }
+.icons-size{
+    color: #555;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.actionimg{
+    right: 30px;
+    display: flex;
+    object-fit: cover;
+}
+

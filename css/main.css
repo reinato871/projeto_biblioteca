@@ -182,3 +182,32 @@ nav.close li a .link-name {
     object-fit: cover;
 }
 
+.actionimg .profile {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    overflow: hidden;
+    width: 36px;
+}
+
+.actionimg .profile img{
+    width: 100%;
+    top: 0;
+    object-fit: cover;
+    left: 0;
+    height: 100%;
+}
+
+.actionimg .menu {
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    transition: 0.5s;
+    top: 120px;
+    visibility: hidden;
+    opacity: 0;
+}

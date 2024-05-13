@@ -188,6 +188,7 @@ nav.close li a .link-name {
     height: 36px;
     overflow: hidden;
     width: 36px;
+
 }
 
 .actionimg .profile img{
@@ -196,6 +197,7 @@ nav.close li a .link-name {
     object-fit: cover;
     left: 0;
     height: 100%;
+
 }
 
 .actionimg .menu {
@@ -210,4 +212,22 @@ nav.close li a .link-name {
     top: 120px;
     visibility: hidden;
     opacity: 0;
+
+}
+
+.actionimg .menu.active{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+}
+
+.actionimg .menu::before {
+    background-color: #ffffff;
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: 14px;
+    transform: rotate(45deg);
+    top: -5px;
+    width: 20px;
 }

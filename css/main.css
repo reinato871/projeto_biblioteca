@@ -18,7 +18,7 @@
 /*MENU*/
 body {
     min-height: 100vh;
-    background-color: #0E4BF1;
+    background-color: #ffffffad;
 }
 
 nav {
@@ -71,7 +71,7 @@ nav .menu-items {
 
 .menu-items li {
     background-color: transparent;
-    border-bottom: 1px solid #1A2326;
+    border-bottom: 1px solid #3386a1;
     height: 40px;
     width: 100%;
     display: flex;
@@ -202,7 +202,7 @@ nav.close li a .link-name {
 
 .actionimg .menu {
     background-color: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     padding: 10px 20px;
     position: absolute;
